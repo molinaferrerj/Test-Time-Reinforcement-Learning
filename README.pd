@@ -1,0 +1,13 @@
+Minimal Skip-gram implementation using NumPy. 
+
+Steps:
+1. Downloads Sherlock Holmes from Project Gutenberg.
+2. Tokenizes and filters words with < 5 occurrences.
+3. Generates skip-gram pairs with a sliding window.
+4. Trains a 2-layer network via SGD.
+
+Requirements:
+numpy
+
+Run:
+python main.py
